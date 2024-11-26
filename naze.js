@@ -2,9 +2,9 @@ process.on('uncaughtException', console.error)
 process.on('unhandledRejection', console.error)
 
 /*
-	* Create By Naze
-	* Follow https://github.com/nazedev
-	* Whatsapp : wa.me/6282113821188
+	* Create By Rin
+	* Follow https://github.com/RinBotz
+	* Whatsapp : wa.me/6283898531240
 */
 
 require('./settings');
@@ -147,7 +147,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 			}
 		}
 		
-		if (!naze.public) {
+		if (!RinBotz.public) {
 			if (!m.key.fromMe) return
 		}
 		
